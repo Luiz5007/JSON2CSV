@@ -11,14 +11,13 @@
 }
 
 body {
-    background-color: cornflowerblue;/*fundo padrao*/
+    background-color: white;/*fundo padrao*/
 }
 
 .container {
     width: 100%;
     max-width: 1120px;
     margin: 0 auto;
-    height: 100vh;
 }
 
 #title {
@@ -42,13 +41,14 @@ form textarea {
     width: 100%;
     max-width: 500px;
     height: 300px;
+    max-height: 550px;
 }
 
 form button#convert {
     border: 0px;
     padding: 5px;
     border-radius: 4px;
-    background-color: saddlebrown;
+    background-color: rgb(68, 68, 102);
     width: 100%;
     max-width: 100px;
     color: white;
